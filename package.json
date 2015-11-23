@@ -16,6 +16,7 @@
     "good-file": "^5.1.0",
     "good-http": "^5.1.0",
     "hapi": "^9.0.3",
+    "mongoose": "^4.2.7",
     "rabbus": "^0.5.0",
     "wascally": "^0.2.7"
   },

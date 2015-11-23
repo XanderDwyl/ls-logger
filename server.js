@@ -9,6 +9,7 @@ var settings = config.util.extendDeep({}, config.get('rabbitmq'));
 
 Rabbit.configure(settings)
 .then(function() {
+  require('./db'),
   // Load service consumers
   require('./consumers');
 })

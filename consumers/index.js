@@ -1,7 +1,7 @@
 'use strict';
 
 // Load third-party modules
-var config = require('config');
+var config = require('../config/db');
 
 // Load local modules
 var LogHandler = require('../handlers/log-handler');
