@@ -1,0 +1,26 @@
+{
+  "name": "ls-logger",
+  "version": "1.0.0",
+  "description": "Loansolutions.ph logger service",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "alex@loansolutions.ph",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^1.17.1",
+    "good": "^6.4.0",
+    "good-console": "^5.2.0",
+    "good-file": "^5.1.0",
+    "good-http": "^5.1.0",
+    "hapi": "^9.0.3",
+    "rabbus": "^0.5.0",
+    "wascally": "^0.2.7"
+  },
+  "devDependencies": {
+    "eslint": "^1.10.1",
+    "eslint-config-loansolutions": "^2.0.0"
+  }
+}

@@ -1,0 +1,9 @@
+node_modules
+.editorconfig
+.eslintrc
+.gitignore
+*/temp*
+*/*/temp*
+temp?
+*.md
+!LICENCSE.md
